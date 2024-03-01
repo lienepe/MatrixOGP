@@ -37,7 +37,7 @@ public class Matrix {
 	}
 	
 	public double[] getMatrix_RMO() {
-		return this.matrix;
+		return this.matrix.clone();
 	}
 	
 	public double[] getMatrix_CMO() {
